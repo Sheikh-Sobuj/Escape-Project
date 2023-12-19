@@ -1,0 +1,626 @@
+/* COMMON CSS AREA */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+img {
+    vertical-align: middle;
+}
+/*--------*/
+body {
+    margin: 0 auto;
+}
+
+/*------------------------------------------- */
+
+/*Header */
+.intro {
+    background: url('../img/Tint-min.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 620px;
+    max-height: 620px;
+}
+
+.intro:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 620px;
+    max-height: 620px;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.logo {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+.nav-link {
+    color: #fff !important;
+    font-family: "BrandonGrotesque", sans-serif;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    opacity: 0.8;
+}
+.navbar-toggler{
+    background: #fff;
+}
+.header-text {
+    color: #ffffff;
+    text-align: center;
+}
+
+.header-text h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: 115px;
+}
+
+.header-text h1 {
+    font-family: "BrandonGrotesqueBold", sans-serif;
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.btn-template {
+    border: 2px solid white !important;
+    width: 240px;
+    height: 65px;
+    text-align: center;
+    background-color: transparent !important;
+    color: #fff;
+    font-family: "BrandonGrotesque", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3px !important;
+    margin-top: 40px;
+}
+
+/*------------------------------------------- */
+
+/*Common section margins */
+
+.first-section, .second-section, .testimonials, .companies {
+    margin-bottom: 60px;
+    margin-top: 3%;
+    text-align: left;
+}
+
+/*------------------------------------------- */
+
+/* First Section: Web Development */
+
+.first-section h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #222222;
+    font-size: 60px;
+    line-height: 75px;/* Approximation due to font substitution */
+}
+
+.first-section span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+}
+
+.first-section p {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.first-section img {
+    margin-top: 15%;
+    margin-bottom: 9%;
+}
+
+/*------------------------------------------- */
+
+/* Second Section: Brand Identity */
+.second-section {
+    background-color: #fafafa;
+}
+
+.second-section h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #222222;
+    font-size: 60px;
+    line-height: 75px;
+    margin-top: 9%;
+}
+
+.second-section span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+}
+
+.second-section p {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.second-section p:last-child {
+    margin-bottom: 12%;
+}
+
+.second-section img {
+    margin-top: 15%;
+    margin-bottom: 9%;
+}
+
+/*------------------------------------------- */
+
+/* Services */
+.services {
+    margin-top: 5%;
+}
+
+.services p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.services p {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*------------------------------------------- */
+
+/*Testimonials */
+.vcenter {
+    top: 25px;
+}
+
+.testimonials {
+    background-color: #fafafa;
+}
+
+.testimonials-title {
+    text-align: center;
+}
+
+.testimonials h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #222222;
+    font-size: 60px;
+    margin-top: 7%;
+}
+
+.testimonials span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+}
+
+.testimonials p {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.testimonials-title p {
+    margin-bottom: 7%;
+}
+
+.testimonials img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.speech-bubble, .speech-bubble-second {
+    position: relative;
+    background: #fff;
+    border: 0.5px solid #dcdcdc;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.speech-bubble:after, .speech-bubble:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.speech-bubble:after {
+
+    /*border-color: rgba(255, 255, 204, 0);*/
+    border-right-color: #fff;
+    border-width: 15px;
+    margin-top: -15px;
+}
+
+.speech-bubble:before {
+
+    /*border-color: rgba(255, 204, 0, 0);*/
+    border-right-color: #dcdcdc;
+    border-width: 16px;
+    margin-top: -16px;
+}
+
+.speech-bubble-second:after, .speech-bubble-second:before {
+    right: 0;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.speech-bubble-second:after {
+
+    /*border-color: rgba(255, 255, 204, 0);*/
+    border-left-color: #fff;
+    border-width: 15px;
+    margin-top: -15px;
+    right: -29px;
+}
+
+.speech-bubble-second:before {
+
+    /*border-color: rgba(255, 204, 0, 0);*/
+    border-left-color: #dcdcdc;
+    border-width: 16px;
+    margin-top: -16px;
+    right: -31px;
+}
+
+.speech-bubble p:first-child, .speech-bubble-second p:first-child {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 4% 6% 0 6%;
+}
+
+.speech-bubble p:last-child, .speech-bubble-second p:last-child {
+    color: #7690c5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0 6% 0 6%;
+}
+
+/*------------------------------------------- */
+
+/*Team */
+
+.team {
+    background-color: #111111;
+}
+
+.team-title {
+    text-align: center;
+}
+
+.team h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 7%;
+}
+
+.team span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+}
+
+.team p {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.last-p-team p {
+    color: #fff;
+    font-size: 20px;
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    margin: 2% 0 10% 0;
+}
+
+.team-title p {
+    margin-bottom: 7%;
+}
+
+.team-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-bottom: 2%;
+}
+
+.team h4 {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.team h5 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+
+.icon-team {
+    margin: 3px 3px 30px 3px;
+    transition: .7s;
+}
+
+.icon-team:hover {
+   transform: scale(1.2);
+}
+
+/* Contact */
+.contact {
+    font-family: "BrandonGrotesque", sans-serif;
+    background-color: #7690c5;
+    color: #fff;
+}
+
+.contact h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 12%;
+}
+
+.contact span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+}
+
+.contact h5 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    font-size: 20px;
+    margin: 3% 0 8% 0;
+}
+
+
+
+.social-media-escape .row {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    font-size: 18px;
+
+}
+
+.social-media-escape .row .col-md-6 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.contact-form {
+    font-family: "BrandonGrotesque", sans-serif;
+    margin-top: 6%;
+}
+
+
+
+hr {
+
+    /*//border: 1px solid #fff !important;*/
+    border-width: 0.01em;
+}
+
+input, textarea {
+    padding: 16px !important;
+    font-size: 18px;
+}
+
+.btn-template-form {
+    border: 2px solid white !important;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: transparent !important;
+    color: #fff;
+    font-family: "BrandonGrotesque", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3px !important;
+    margin-top: 10px;
+}
+
+/*------------------------------------------- */
+
+/*------------------------------------------- */
+
+/*Media Queries */
+@media only screen and (min-width:1000px) {
+    .second-section img{
+        margin-top: 40%;
+    }
+
+}
+
+
+@media only screen and (min-width:800px) and (max-width:1200px) {
+    .second-section img, .first-section img {
+        width: 200px;
+    }
+
+    .testimonials img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .client2 {
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    #primary-nav {
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    * {
+        text-align: center;
+    }
+
+    .intro,
+    .intro:before {
+        height: 450px;
+    }
+
+
+    .header-text h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .header-text h3 {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .btn-template {
+        width: 150px;
+        height: 70px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .navbar-brand, #primary-nav {
+        margin-top: 10px;
+    }
+
+    .first-section h3, .second-section h3 {
+        font-size: 35px;
+        margin-top: 3%;
+    }
+
+    .first-section img, .second-section img {
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px !important;
+    }
+
+    .second-section img, .first-section img {
+        width: 150px;
+    }
+
+    .services, .second-section {
+        margin-top: 10%;
+    }
+
+    .services img {
+        margin: 15px 0;
+    }
+
+    .testimonials h3 {
+        font-size: 35px;
+        margin-top: 10%;
+    }
+
+    .testimonials img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 5%;
+    }
+
+    .client2{
+        margin-top: 10%;
+    }
+
+    .testimonials-title p {
+        margin-bottom: 5%;
+    }
+
+    .speech-bubble p:first-child, .speech-bubble-second p:first-child {
+        font-size: 20px;
+    }
+
+    .speech-bubble p:last-child, .speech-bubble-second p:last-child {
+        font-size: 18px;
+    }
+
+    .companies img {
+        padding-bottom: 6%;
+    }
+
+    .social-media-escape img {
+        margin: 15px 0;
+    }
+
+    .social-media-escape, .contact-form {
+        margin-bottom: 10%;
+    }
+
+    .btn-template-form{
+        height: 47px;
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    .client2 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+}
+
+/*------------------------------------------- */
